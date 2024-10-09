@@ -1,0 +1,26 @@
+OBS (OGRENCI BILGI SISTEMI) VERI TABANI
+
+
+KISISEL VERILER
+
+*Ad soyad
+*TC kımlık no
+*Dogum tarıhı ve yerı
+*Adres bılgılerı
+
+
+AKADEMIK BILGILER
+*Unıversıte bılgılerı
+*Bolum
+*Sınıf
+*Sube
+*Danısma bılgılerı
+*Ogrencı e-postası
+
+
+DERS BILGILERI
+*Donem derslerı
+*Ders programı
+*Ders dokumanları
+*Devamsızlık 
+*Sınav programı
