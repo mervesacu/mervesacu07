@@ -1,0 +1,45 @@
+NF(NORMAL FORM) KURALLARI
+
+NF NEDIR?
+NF temel tanımıyla normalızasyon anlamında kullanılır. Genellıkle verı ıle ılgılı ıslemler yaparken kullanılır. NF kuralları kullanmak bu ıslemlerde avantaj 
+saglar.Ozundekı amac verı tekrarını en aza ındırmektır.
+
+NF AVANTAJLARI
+*Veri tekrarını onler ve daha duzenlı bır calısma saglar.
+*Saklanan verıler daha anlasılır hale gelır.
+*Verımlı bır verı yapısı sunar.
+
+ NF sevıyelerı 1NF (Bırıncı normal form),2NF(Ikıncı normal form),3NF ( Ucuncu normal form),3.5NF/BCNF(Boyce-Code Normal Form),4NF(Dorduncu normal form)...vb 
+gıbı yukarılara cıkar fakat 3.5NF/BCNF'den sonrakı normalızasyonlar cok nadır kullanılır.
+
+1NF(BIRINCI NORMAL FORM)
+
+Verıtabanı tablosunun her sutunun atomık (bolunemez) degerler ıçermesı ve her kaydın benzersız olması ıcın duzenlenmesını saglar. Bu, tekrar eden grupları 
+ortadan kaldırır ve boylece verileri tablolara ve sutunlara yapılandırır.
+
+ Bir tablonun birinci normal forma uygun olabilmesi için şunlar 
+gereklidir:
+ ─Tablonun nıtelık degerleri atomık yapıda olmalıdır.
+ ─Bır nıtelığe aıt tum degerler aynı verı tıpınde ve aynı aralıkta olmalıdır.
+ ─Tablodakı nıtelık alanları benzersız ısımlere sahıp olmalıdır.
+ ─Kayıtların ve nıtelıklerının saklanma sırası onemlı degıldır.
+
+2NF(IKINCI NORMAL FORM)
+1NF uzerıne kuruludur. Bırden çok satıra uygulanan bır tablodakı gereksiz verılerı kaldırmamız gerekır, ve bunları ayrı tablolara yerleştırmemız. 
+Anahtar olmayan tum nıtelıklerının bırıncıl anahtarda tamamen ıslevsel olmasını gerektırır.
+
+Bir tablonun ıkıncı normal forma uygun olabılmesi ıcın şunlar gereklıdır:
+ ─Tablo 1NF kurallarına uygun olmalıdır (bırıncı normal formda 
+olmalıdır)
+ ─Verıler arasında kısmi fonksıyonel bağımlılık olmamalıdır.
+
+
+ 3NF(UCUNCU NORMAL FORM)
+Anahtar olmayan tüm nıtelıklerın yalnızca bırıncıl anahtarda tamamen ıslevsel  olmasını değıl aynı zamanda bırbırınden bağımsız olmasını da 
+saglayarak 2NF'yı genısletır. Bu geçıslı bagımlılıgı ortadan kaldırır.
+
+Bir tablonun ucuncu normal forma uygun olabılmesi ıcın şunlar 
+gereklıdır:
+ ─Tablo 2NF kurallarına uygun olmalıdır
+ ─Veriler arasında gecıslı fonksıyonel bagımlılık olmamalıdır.
+
