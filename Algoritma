@@ -1,0 +1,8 @@
+1)Basla
+2)Puanını giriniz(P)
+3)Eger P < = 40 ise yaz '1'
+4)Değilse P > = 40 ya da P < =50 Yaz '2'
+5)Değilse P > = 50 ya da P < = 65 Yaz '3'
+6)Değilse P > = 65 ya da P < = 84 Yaz '4'
+7)Değilse Yaz '5'
+8)Bitir
