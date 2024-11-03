@@ -1,0 +1,11 @@
+1)Basla
+2)Basamaksay=0
+3)sayı giriniz,s1
+4)Kalan = s1/10
+5)s1=s1-kalan
+6)s1=s1/10
+7)Basamaksay=Basamaksay +1
+8)s1<>0 ise 10 'a git
+9)Değilse 4 e git
+10)Yaz basamaksay
+11)Bitir
